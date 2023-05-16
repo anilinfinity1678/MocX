@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,500;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,500;1,300&display=swap");
+.loginPage {
+    background-image: url("../../assets/wp/loginbg.png");
+    height: 100vh;
+    width: 90vw;
+    box-shadow: 0 0 0 100vh hsl(39, 44%, 86%);
+    clip-path: inset(0, -100vh);
+}
+.l {
+    background: hsl(39, 44%, 86%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: #292727;
+
+    width: min(50%, 500px);
+    margin-inline: auto;
+    top: 15%;
+    height: 500px;
+    border-radius: 20px;
+    transform: translateX(-2%);
+    left: 20%;
+}
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: "montserrat", sans-serif;
+    gap: 30px;
+}
+.heading {
+    text-align: center;
+    font-size: 1.5rem;
+}
+input {
+    height: 40px;
+    width: 300px;
+    border-radius: 8px;
+    border: 0ch;
+    display: flex;
+    font-size: 1rem;
+
+    gap: 20px;
+}
+.submit {
+    background: var(--cream);
+    text-align: center;
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    color: #222222;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.left hr {
+    width: 300px;
+}
+.left button {
+    background: #222222;
+    width: 200px;
+    border-color: var(--cream);
+    font-size: 1rem;
+    border-radius: 25px;
+    align-items: flex-end;
+    color: var(--cream);
+}
+
+.button {
+    display: flex;
+
+    gap: 20px;
+}
+
+.fgp {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 1.1rem;
+}
+
+.logos {
+    display: flex;
+    gap: 10px;
+}
+.logo img {
+    aspect-ratio: 1/1;
+    height: 100%;
+    width: 50px;
+}

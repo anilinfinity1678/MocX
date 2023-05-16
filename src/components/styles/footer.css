@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-short {
+    max-width: 60vw;
+    margin: auto;
+    padding: 5rem 10rem;
+    border-radius: 1rem;
+}
+.grid div:last-child {
+    justify-self: end;
+    align-self: center;
+}
+
+footer {
+    padding: 14rem 9rem 0;
+    /* background: radial-gradient(
+        115.05% 275.33% at 3.47% 8.73%,
+        #4d0775 0%,
+        #251337 22.71%,
+        #040013 47.19%,
+        #1a0229 65.21%,
+        #2a033f 82.41%
+    );
+    background-repeat: no-repeat;
+    color: white; */
+}
+h3 {
+    color: white;
+    margin-bottom: 2.4rem;
+}
+p {
+    color: white;
+}
+.social-icons {
+    display: flex;
+    gap: 2rem;
+}
+div {
+    padding: 1rem;
+    border-radius: 50%;
+}
